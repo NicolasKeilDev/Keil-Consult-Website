@@ -408,6 +408,12 @@ main {
     font-size: 1.1rem;
 }
 
+/* Impressum & Datenschutz text color override */
+#impressum *,
+#datenschutz * {
+    color: #090420 !important;
+}
+
 /* Contact Section Specific Styles */
 #contact.section {
     min-height: auto;
