@@ -26,11 +26,16 @@
                 <span></span>
             </button>
             <nav class="nav-menu">
-                <a href="#home" class="nav-button" data-page="home">Vermögensstrategie</a>
-                <a href="#services" class="nav-button" data-page="services">Leistungen</a>
-                <a href="#about" class="nav-button" data-page="about">Eckart Keil</a>
-                <a href="#contact" class="nav-button" data-page="contact">Kontakt</a>
+                <a href="#home" class="nav-button" data-page="home" data-de="Vermögensstrategie" data-en="Wealth Strategy">Vermögensstrategie</a>
+                <a href="#services" class="nav-button" data-page="services" data-de="Leistungen" data-en="Services">Leistungen</a>
+                <a href="#about" class="nav-button" data-page="about" data-de="Eckart Keil" data-en="Eckart Keil">Eckart Keil</a>
+                <a href="#contact" class="nav-button" data-page="contact" data-de="Kontakt" data-en="Contact">Kontakt</a>
             </nav>
+            <div class="lang-toggle">
+                <button class="lang-btn active" id="btn-de" onclick="setLang('de')">DE</button>
+                <div class="lang-divider"></div>
+                <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+            </div>
         </div>
     </header>
 
@@ -41,10 +46,10 @@
                     <!-- Row 1: Text | Image -->
                     <div class="responsive-grid-2-1">
                         <div class="content-box">
-                            <h1 class="section-title">Vermögensstrategie aus langjähriger Erfahrung</h1>
-                            <p class="text-large">Strukturierte Vermögenslösungen für Anleger, die Verantwortung delegieren und Risiken kontrollieren wollen.</p>
-                            <p class="text-large">Keil Asset Management Consult unterstützt Anleger bei der strategischen Strukturierung ihres Vermögens.</p>
-                            <p class="text-large" style="margin-top: 1rem;">Der Schwerpunkt liegt auf Managed Accounts, umgesetzt über lizenzierte, langjährige professionelle Partner.</p>
+                            <h1 class="section-title" data-de="Vermögensstrategie aus langjähriger Erfahrung" data-en="Wealth Strategy from Decades of Experience">Vermögensstrategie aus langjähriger Erfahrung</h1>
+                            <p class="text-large" data-de="Strukturierte Vermögenslösungen für Anleger, die Verantwortung delegieren und Risiken kontrollieren wollen." data-en="Structured wealth solutions for investors who want to delegate responsibility and control risks.">Strukturierte Vermögenslösungen für Anleger, die Verantwortung delegieren und Risiken kontrollieren wollen.</p>
+                            <p class="text-large" data-de="Keil Asset Management Consult unterstützt Anleger bei der strategischen Strukturierung ihres Vermögens." data-en="Keil Asset Management Consult supports investors in the strategic structuring of their assets.">Keil Asset Management Consult unterstützt Anleger bei der strategischen Strukturierung ihres Vermögens.</p>
+                            <p class="text-large" style="margin-top: 1rem;" data-de="Der Schwerpunkt liegt auf Managed Accounts, umgesetzt über lizenzierte, langjährige professionelle Partner." data-en="The focus is on managed accounts, implemented through licensed, long-standing professional partners.">Der Schwerpunkt liegt auf Managed Accounts, umgesetzt über lizenzierte, langjährige professionelle Partner.</p>
                         </div>
                         
                         <div class="image-container">
@@ -58,23 +63,23 @@
                         <div class="feature-item">
                             <div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
                                 <h3 style="margin: 0;">01.</h3>
-                                <h4 style="font-size: 1.15rem; font-weight: bold; margin: 0;">Erfahrung vor Aktionismus</h4>
+                                <h4 style="font-size: 1.15rem; font-weight: bold; margin: 0;" data-de="Erfahrung vor Aktionismus" data-en="Experience over Actionism">Erfahrung vor Aktionismus</h4>
                             </div>
-                            <p>Marktzyklen verstehen statt kurzfristig reagieren.</p>
+                            <p data-de="Marktzyklen verstehen statt kurzfristig reagieren." data-en="Understanding market cycles instead of reacting short-term.">Marktzyklen verstehen statt kurzfristig reagieren.</p>
                         </div>
                         <div class="feature-item">
                             <div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
                                 <h3 style="margin: 0;">02.</h3>
-                                <h4 style="font-size: 1.15rem; font-weight: bold; margin: 0;">Risiken bewusst steuern</h4>
+                                <h4 style="font-size: 1.15rem; font-weight: bold; margin: 0;" data-de="Risiken bewusst steuern" data-en="Managing Risks Deliberately">Risiken bewusst steuern</h4>
                             </div>
-                            <p>Erfahrung hilft, mit Risiken umzugehen, Chancen zu erkennen.</p>
+                            <p data-de="Erfahrung hilft, mit Risiken umzugehen, Chancen zu erkennen." data-en="Experience helps to handle risks and identify opportunities.">Erfahrung hilft, mit Risiken umzugehen, Chancen zu erkennen.</p>
                         </div>
                         <div class="feature-item">
                             <div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
                                 <h3 style="margin: 0;">03.</h3>
-                                <h4 style="font-size: 1.15rem; font-weight: bold; margin: 0;">Verantwortung delegieren</h4>
+                                <h4 style="font-size: 1.15rem; font-weight: bold; margin: 0;" data-de="Verantwortung delegieren" data-en="Delegating Responsibility">Verantwortung delegieren</h4>
                             </div>
-                            <p>Professionelle Umsetzung über regulierte Partner.</p>
+                            <p data-de="Professionelle Umsetzung über regulierte Partner." data-en="Professional implementation through regulated partners.">Professionelle Umsetzung über regulierte Partner.</p>
                         </div>
                     </div>
                     
@@ -87,17 +92,17 @@
                 <!-- Row 1: Text | Image -->
                 <div class="responsive-grid-2-1">
                     <div>
-                        <h2 class="section-title">Managed Accounts als Kernleistung</h2>
-                        <p class="text-large" style="margin-bottom: 2rem;">Individuelle Mandatslösungen – von ertragsorientiert bis konservativ.</p>
-                        <p class="text-large" style="margin-bottom: 1rem;">Im Mittelpunkt unserer Mandatslösungen stehen Managed Accounts, die individuell an die Ziele und das Risikoprofil des Anlegers angepasst werden.</p>
-                        <p class="text-large" style="margin-bottom: 0.5rem;">Je nach Wunsch und Ausrichtung reichen die Mandate:</p>
+                        <h2 class="section-title" data-de="Managed Accounts als Kernleistung" data-en="Managed Accounts as Core Service">Managed Accounts als Kernleistung</h2>
+                        <p class="text-large" style="margin-bottom: 2rem;" data-de="Individuelle Mandatslösungen – von ertragsorientiert bis konservativ." data-en="Individual mandate solutions – from return-oriented to conservative.">Individuelle Mandatslösungen – von ertragsorientiert bis konservativ.</p>
+                        <p class="text-large" style="margin-bottom: 1rem;" data-de="Im Mittelpunkt unserer Mandatslösungen stehen Managed Accounts, die individuell an die Ziele und das Risikoprofil des Anlegers angepasst werden." data-en="At the heart of our mandate solutions are managed accounts, individually tailored to the investor's objectives and risk profile.">Im Mittelpunkt unserer Mandatslösungen stehen Managed Accounts, die individuell an die Ziele und das Risikoprofil des Anlegers angepasst werden.</p>
+                        <p class="text-large" style="margin-bottom: 0.5rem;" data-de="Je nach Wunsch und Ausrichtung reichen die Mandate:" data-en="Depending on preference and focus, the mandates range:">Je nach Wunsch und Ausrichtung reichen die Mandate:</p>
                         <ul class="text-large" style="margin-left: 1.5rem; margin-bottom: 1rem;">
-                            <li>von ertragsorientierten Strategien über</li>
-                            <li>Stillhalter- und Prämienstrategien mit Sicherheitsnetz</li>
-                            <li>bis hin zu konservativen Vermögensverwaltungsansätzen mit Fokus auf Stabilität und Werterhalt.</li>
+                            <li data-de="von ertragsorientierten Strategien über" data-en="from return-oriented strategies,">von ertragsorientierten Strategien über</li>
+                            <li data-de="Stillhalter- und Prämienstrategien mit Sicherheitsnetz" data-en="option writing and premium strategies with a safety net,">Stillhalter- und Prämienstrategien mit Sicherheitsnetz</li>
+                            <li data-de="bis hin zu konservativen Vermögensverwaltungsansätzen mit Fokus auf Stabilität und Werterhalt." data-en="to conservative wealth management approaches focused on stability and capital preservation.">bis hin zu konservativen Vermögensverwaltungsansätzen mit Fokus auf Stabilität und Werterhalt.</li>
                         </ul>
-                        <p class="text-large" style="margin-bottom: 0.5rem;">Die Umsetzung erfolgt über lizenzierte, langjährige professionelle Partner.</p>
-                        <p class="text-large">Keil Asset Management Consult verantwortet dabei die strategische Ausrichtung auf Basis jahrzehntelanger Markt- und Optionserfahrung.</p>
+                        <p class="text-large" style="margin-bottom: 0.5rem;" data-de="Die Umsetzung erfolgt über lizenzierte, langjährige professionelle Partner." data-en="Implementation is carried out through licensed, long-standing professional partners.">Die Umsetzung erfolgt über lizenzierte, langjährige professionelle Partner.</p>
+                        <p class="text-large" data-de="Keil Asset Management Consult verantwortet dabei die strategische Ausrichtung auf Basis jahrzehntelanger Markt- und Optionserfahrung." data-en="Keil Asset Management Consult is responsible for the strategic direction based on decades of market and options experience.">Keil Asset Management Consult verantwortet dabei die strategische Ausrichtung auf Basis jahrzehntelanger Markt- und Optionserfahrung.</p>
                     </div>
 
                     <div class="image-container">
@@ -110,25 +115,25 @@
                 <!-- Row 2: Main Points -->
                 <div class="hero-features">
                     <div class="feature-item">
-                        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                        <div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
                             <h3 style="margin: 0;">01.</h3>
-                            <h4 style="font-size: 1.1rem; font-weight: bold; margin: 0;">Flexible Mandatslösungen nach Kundenwunsch</h4>
+                            <h4 style="font-size: 1.1rem; font-weight: bold; margin: 0;" data-de="Individuelle Mandatslösungen" data-en="Individual Mandate Solutions">Individuelle Mandatslösungen</h4>
                         </div>
-                        <p>Von ertragsorientiert mit Sicherheitsmechanismen bis konservativ.</p>
+                        <p data-de="Von ertragsorientiert mit Sicherheitsmechanismen bis konservativ." data-en="From return-oriented with safety mechanisms to conservative.">Von ertragsorientiert mit Sicherheitsmechanismen bis konservativ.</p>
                     </div>
                     <div class="feature-item">
-                        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                        <div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
                             <h3 style="margin: 0;">02.</h3>
-                            <h4 style="font-size: 1.1rem; font-weight: bold; margin: 0;">Zusatzerträge durch Stillhalterstrategien</h4>
+                            <h4 style="font-size: 1.1rem; font-weight: bold; margin: 0;" data-de="Zusatzerträge durch Stillhalterstrategien" data-en="Additional Income through Option Writing">Zusatzerträge durch Stillhalterstrategien</h4>
                         </div>
-                        <p>Optionsprämien als gezielte Ertragsquelle im passenden Marktumfeld.</p>
+                        <p data-de="Optionsprämien als gezielte Ertragsquelle im passenden Marktumfeld." data-en="Option premiums as a targeted income source in the right market environment.">Optionsprämien als gezielte Ertragsquelle im passenden Marktumfeld.</p>
                     </div>
                     <div class="feature-item">
-                        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                        <div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
                             <h3 style="margin: 0;">03.</h3>
-                            <h4 style="font-size: 1.1rem; font-weight: bold; margin: 0;">Delegierte Vermögensverwaltung</h4>
+                            <h4 style="font-size: 1.1rem; font-weight: bold; margin: 0;" data-de="Delegierte Vermögensverwaltung" data-en="Delegated Asset Management">Delegierte Vermögensverwaltung</h4>
                         </div>
-                        <p>Professionelle Umsetzung über regulierte Partnerstrukturen.</p>
+                        <p data-de="Professionelle Umsetzung über regulierte Partnerstrukturen." data-en="Professional implementation through regulated partner structures.">Professionelle Umsetzung über regulierte Partnerstrukturen.</p>
                     </div>
                 </div>
             </div>
@@ -139,78 +144,78 @@
                 <!-- Row 1: Text | Image -->
                 <div class="responsive-grid-1-1">
                     <div>
-                        <h2 class="section-title">Erfahrung, Haltung, Verantwortung</h2>
-                        <p class="text-intro">Über drei Jahrzehnte Erfahrung im professionellen Portfoliomanagement – geprägt durch antizyklisches, wertorientiertes Investieren.</p>
-                        <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: #6449E9;">Accomplishments</h3>
+                        <h2 class="section-title" data-de="Erfahrung, Haltung, Verantwortung" data-en="Experience, Conviction, Responsibility">Erfahrung, Haltung, Verantwortung</h2>
+                        <p class="text-intro" data-de="Über drei Jahrzehnte Erfahrung im professionellen Portfoliomanagement – geprägt durch antizyklisches, wertorientiertes Investieren." data-en="Over three decades of experience in professional portfolio management – shaped by contrarian, value-oriented investing.">Über drei Jahrzehnte Erfahrung im professionellen Portfoliomanagement – geprägt durch antizyklisches, wertorientiertes Investieren.</p>
+                        <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: #6449E9;" data-de="Accomplishments" data-en="Accomplishments">Accomplishments</h3>
                         <ul style="font-size: 1rem; line-height: 1.8; list-style: none; padding-left: 0;">
-                            <li style="margin-bottom: 0.5rem;">✓ Seit 1995 im professionellen Portfoliomanagement</li>
-                            <li style="margin-bottom: 0.5rem;">✓ Management internationaler Aktien- und Rentenfonds</li>
-                            <li style="margin-bottom: 0.5rem; font-weight: bold;">✓ Mehrfach ausgezeichnet, u. a.:</li>
+                            <li style="margin-bottom: 0.5rem;" data-de="✓ Seit 1995 im professionellen Portfoliomanagement" data-en="✓ In professional portfolio management since 1995">✓ Seit 1995 im professionellen Portfoliomanagement</li>
+                            <li style="margin-bottom: 0.5rem;" data-de="✓ Management internationaler Aktien- und Rentenfonds" data-en="✓ Management of international equity and bond funds">✓ Management internationaler Aktien- und Rentenfonds</li>
+                            <li style="margin-bottom: 0.5rem; font-weight: bold;" data-de="✓ Mehrfach ausgezeichnet, u. a.:" data-en="✓ Multiple award winner, including:">✓ Mehrfach ausgezeichnet, u. a.:</li>
                             <li style="margin-left: 1.5rem; margin-bottom: 0.3rem;">• Lipper Fund Award</li>
                             <li style="margin-left: 1.5rem; margin-bottom: 0.3rem;">• Euro-Finanzenaward</li>
                             <li style="margin-left: 1.5rem; margin-bottom: 0.3rem;">• Best of Newcomer Fund Award</li>
-                            <li style="margin-left: 1.5rem; margin-bottom: 0.5rem;">• Erwähnung in der Wirtschaftswoche, 2011, als bester Fonds seiner Kategorie</li>
+                            <li style="margin-left: 1.5rem; margin-bottom: 0.5rem;" data-de="• Erwähnung in der Wirtschaftswoche, 2011, als bester Fonds seiner Kategorie" data-en="• Featured in Wirtschaftswoche, 2011, as best fund in its category">• Erwähnung in der Wirtschaftswoche, 2011, als bester Fonds seiner Kategorie</li>
                         </ul>
                         <div style="margin-top: 2rem;">
-                            <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem; color: #6449E9;">Beruflicher Hintergrund</h3>
+                            <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem; color: #6449E9;" data-de="Beruflicher Hintergrund" data-en="Professional Background">Beruflicher Hintergrund</h3>
                             <ul style="font-size: 0.95rem; line-height: 1.6; list-style: none; padding-left: 0;">
-                                <li style="margin-bottom: 0.3rem;"><strong>seit 2023:</strong> Gründer von OptionEarner</li>
-                                <li style="margin-bottom: 0.3rem;"><strong>seit 2011:</strong> Freier Berater für Vermögensstrukturierung</li>
+                                <li style="margin-bottom: 0.3rem;"><strong data-de="seit 2023:" data-en="since 2023:">seit 2023:</strong> <span data-de="Gründer von OptionEarner" data-en="Founder of OptionEarner">Gründer von OptionEarner</span></li>
+                                <li style="margin-bottom: 0.3rem;"><strong data-de="seit 2004:" data-en="since 2004:">seit 2004:</strong> <span data-de="Freier Berater für Vermögensstrukturierung" data-en="Independent advisor for asset structuring">Freier Berater für Vermögensstrukturierung</span></li>
                                 <li style="margin-bottom: 0.3rem;">Dr. Jens Ehrhardt Kapital AG</li>
-                                <li style="margin-bottom: 0.3rem;">FIDUKA Depotverwaltung (Umfeld André Kostolany / Gottfried Heller)</li>
-                                <li style="margin-bottom: 0.3rem;">DZ Bank, institutionelle Anlageberatung</li>
-                                <li style="margin-bottom: 0.3rem;">Diplom-Volkswirt, Universität Regensburg (Prädikatsexamen)</li>
-                                <li style="margin-bottom: 0.3rem;">Banklehre, Bayerische Vereinsbank AG</li>
+                                <li style="margin-bottom: 0.3rem;" data-de="FIDUKA Depotverwaltung (Umfeld André Kostolany / Gottfried Heller)" data-en="FIDUKA Depotverwaltung (circle of André Kostolany / Gottfried Heller)">FIDUKA Depotverwaltung (Umfeld André Kostolany / Gottfried Heller)</li>
+                                <li style="margin-bottom: 0.3rem;" data-de="DZ Bank, institutionelle Anlageberatung" data-en="DZ Bank, institutional investment advisory">DZ Bank, institutionelle Anlageberatung</li>
+                                <li style="margin-bottom: 0.3rem;" data-de="Diplom-Volkswirt, Universität Regensburg (Prädikatsexamen)" data-en="Diplom-Volkswirt, University of Regensburg (with distinction)">Diplom-Volkswirt, Universität Regensburg (Prädikatsexamen)</li>
+                                <li style="margin-bottom: 0.3rem;" data-de="Banklehre, Bayerische Vereinsbank AG" data-en="Banking apprenticeship, Bayerische Vereinsbank AG">Banklehre, Bayerische Vereinsbank AG</li>
                             </ul>
                             <p style="font-size: 0.95rem; margin-top: 1rem;">
-                                <strong>Weitere Informationen:</strong>
+                                <strong data-de="Weitere Informationen:" data-en="Further Information:">Weitere Informationen:</strong>
                                 <a href="https://www.optionearner.com" target="_blank" style="color: #6449E9; font-weight: bold; text-decoration: none;">https://www.optionearner.com</a>
                             </p>
                         </div>
                     </div>
                     <div class="image-container">
                         <img src="assets/images/Eckart_Keil_Börse.jpg" alt="Gottfried Heller, Eckart Keil und Michael Keppler, New Yorker Börse" class="responsive-image" style="margin-top: -2rem;">
-                        <p class="image-caption">Gottfried Heller, Eckart Keil und Michael Keppler, New Yorker Börse</p>
+                        <p class="image-caption" data-de="Gottfried Heller, Eckart Keil und Michael Keppler, New Yorker Börse" data-en="Gottfried Heller, Eckart Keil and Michael Keppler, New York Stock Exchange">Gottfried Heller, Eckart Keil und Michael Keppler, New Yorker Börse</p>
                     </div>
                 </div>
 
                 <!-- Timeline -->
-                <h3 style="font-size: 1.6rem; margin-bottom: 1.5rem; text-align: center; margin-top: 3rem;">Werdegang</h3>
+                <h3 style="font-size: 1.6rem; margin-bottom: 1.5rem; text-align: center; margin-top: 3rem;" data-de="Werdegang" data-en="Career Path">Werdegang</h3>
                 <div style="position: relative; padding-left: 2rem; border-left: 3px solid #8B77EE; margin-bottom: 3rem;">
                     <div style="position: relative; padding: 1rem 0;">
                         <div style="position: absolute; left: -2.5rem; width: 1rem; height: 1rem; background: #6449E9; border-radius: 50%;"></div>
                         <p style="font-weight: bold; font-size: 1.2rem; color: #6449E9;">2023</p>
-                        <p style="font-size: 1rem; margin-top: 0.5rem;">Gründung von OptionEarner.com</p>
-                    </div>
-                    
-                    <div style="position: relative; padding: 1rem 0;">
-                        <div style="position: absolute; left: -2.5rem; width: 1rem; height: 1rem; background: #6449E9; border-radius: 50%;"></div>
-                        <p style="font-weight: bold; font-size: 1.2rem; color: #6449E9;">2011 – heute</p>
-                        <p style="font-size: 1rem; margin-top: 0.5rem;">Freier Berater in der Vermögensanlage mit Schwerpunkt Portfoliostrukturierung und Renditesteigerungsstrategien</p>
+                        <p style="font-size: 1rem; margin-top: 0.5rem;" data-de="Gründung von OptionEarner.com" data-en="Founded OptionEarner.com">Gründung von OptionEarner.com</p>
                     </div>
                     
                     <div style="position: relative; padding: 1rem 0;">
                         <div style="position: absolute; left: -2.5rem; width: 1rem; height: 1rem; background: #6449E9; border-radius: 50%;"></div>
                         <p style="font-weight: bold; font-size: 1.2rem; color: #6449E9;">2010</p>
-                        <p style="font-size: 1rem; margin-top: 0.5rem;">Der PREMIUM PEARLS One als bester Fonds seiner Kategorie von der Wirtschaftswoche besprochen</p>
+                        <p style="font-size: 1rem; margin-top: 0.5rem;" data-de="Der PREMIUM PEARLS One als bester Fonds seiner Kategorie von der Wirtschaftswoche besprochen" data-en="PREMIUM PEARLS One reviewed as best fund in its category by Wirtschaftswoche">Der PREMIUM PEARLS One als bester Fonds seiner Kategorie von der Wirtschaftswoche besprochen</p>
                     </div>
                     
                     <div style="position: relative; padding: 1rem 0;">
                         <div style="position: absolute; left: -2.5rem; width: 1rem; height: 1rem; background: #6449E9; border-radius: 50%;"></div>
                         <p style="font-weight: bold; font-size: 1.2rem; color: #6449E9;">2005</p>
-                        <p style="font-size: 1rem; margin-top: 0.5rem;">Mitbegründer der Euromerica Resource Advisors GmbH</p>
+                        <p style="font-size: 1rem; margin-top: 0.5rem;" data-de="Mitbegründer der Euromerica Resource Advisors GmbH" data-en="Co-founder of Euromerica Resource Advisors GmbH">Mitbegründer der Euromerica Resource Advisors GmbH</p>
+                    </div>
+                    
+                    <div style="position: relative; padding: 1rem 0;">
+                        <div style="position: absolute; left: -2.5rem; width: 1rem; height: 1rem; background: #6449E9; border-radius: 50%;"></div>
+                        <p style="font-weight: bold; font-size: 1.2rem; color: #6449E9;" data-de="2004 – heute" data-en="2004 – present">2004 – heute</p>
+                        <p style="font-size: 1rem; margin-top: 0.5rem;" data-de="Freier Berater in der Vermögensanlage mit Schwerpunkt Portfoliostrukturierung und Renditesteigerungsstrategien" data-en="Independent advisor in asset management, specialising in portfolio structuring and yield enhancement strategies">Freier Berater in der Vermögensanlage mit Schwerpunkt Portfoliostrukturierung und Renditesteigerungsstrategien</p>
                     </div>
                     
                     <div style="position: relative; padding: 1rem 0;">
                         <div style="position: absolute; left: -2.5rem; width: 1rem; height: 1rem; background: #6449E9; border-radius: 50%;"></div>
                         <p style="font-weight: bold; font-size: 1.2rem; color: #6449E9;">2003 – 2004</p>
-                        <p style="font-size: 1rem; margin-top: 0.5rem;">Dr. Jens Ehrhardt Kapital AG, München - Portfoliomanagement</p>
+                        <p style="font-size: 1rem; margin-top: 0.5rem;" data-de="Dr. Jens Ehrhardt Kapital AG, München - Portfoliomanagement" data-en="Dr. Jens Ehrhardt Kapital AG, Munich – Portfolio Management">Dr. Jens Ehrhardt Kapital AG, München - Portfoliomanagement</p>
                     </div>
                     
                     <div style="position: relative; padding: 1rem 0;">
                         <div style="position: absolute; left: -2.5rem; width: 1rem; height: 1rem; background: #6449E9; border-radius: 50%;"></div>
                         <p style="font-weight: bold; font-size: 1.2rem; color: #6449E9;">1994 – 2002</p>
-                        <p style="font-size: 1rem; margin-top: 0.5rem;">FIDUKA-Depotverwaltung, München - Zusammenarbeit mit André Kostolany und Gottfried Heller</p>
+                        <p style="font-size: 1rem; margin-top: 0.5rem;" data-de="FIDUKA-Depotverwaltung, München - Zusammenarbeit mit André Kostolany und Gottfried Heller" data-en="FIDUKA-Depotverwaltung, Munich – Collaboration with André Kostolany and Gottfried Heller">FIDUKA-Depotverwaltung, München - Zusammenarbeit mit André Kostolany und Gottfried Heller</p>
                     </div>
                     
                     <div style="position: relative; padding: 1rem 0;">
@@ -222,84 +227,84 @@
                     <div style="position: relative; padding: 1rem 0;">
                         <div style="position: absolute; left: -2.5rem; width: 1rem; height: 1rem; background: #6449E9; border-radius: 50%;"></div>
                         <p style="font-weight: bold; font-size: 1.2rem; color: #6449E9;">1986 – 1990</p>
-                        <p style="font-size: 1rem; margin-top: 0.5rem;">Dipl.-Volkswirt, Universität Regensburg</p>
+                        <p style="font-size: 1rem; margin-top: 0.5rem;" data-de="Dipl.-Volkswirt, Universität Regensburg" data-en="Diplom-Volkswirt (Economics degree), University of Regensburg">Dipl.-Volkswirt, Universität Regensburg</p>
                     </div>
                     
                     <div style="position: relative; padding: 1rem 0;">
                         <div style="position: absolute; left: -2.5rem; width: 1rem; height: 1rem; background: #6449E9; border-radius: 50%;"></div>
                         <p style="font-weight: bold; font-size: 1.2rem; color: #6449E9;">1984 – 1986</p>
-                        <p style="font-size: 1rem; margin-top: 0.5rem;">Banklehre bei der Bayerischen Vereinsbank AG</p>
+                        <p style="font-size: 1rem; margin-top: 0.5rem;" data-de="Banklehre bei der Bayerischen Vereinsbank AG" data-en="Banking apprenticeship at Bayerische Vereinsbank AG">Banklehre bei der Bayerischen Vereinsbank AG</p>
                     </div>
                 </div>
 
                 <!-- Family History -->
                 <div class="content-box" style="margin-top: 3rem;">
-                    <h3 class="subsection-title">Die Geschichte der Messerschmiede Keil</h3>
+                    <h3 class="subsection-title" data-de="Die Geschichte der Messerschmiede Keil" data-en="The History of the Keil Knifemakers">Die Geschichte der Messerschmiede Keil</h3>
                     <div class="responsive-grid-3">
                         <div>
                             <p class="timeline-year">1806</p>
-                            <p class="timeline-text">Johannes Keil wird als Messerschmied in Regensburg aufgenommen</p>
+                            <p class="timeline-text" data-de="Johannes Keil wird als Messerschmied in Regensburg aufgenommen" data-en="Johannes Keil is admitted as a knifemaker in Regensburg">Johannes Keil wird als Messerschmied in Regensburg aufgenommen</p>
                         </div>
                         <div>
                             <p class="timeline-year">1838</p>
-                            <p class="timeline-text">Johann Keil erweitert das Geschäft zur vollen Blüte</p>
+                            <p class="timeline-text" data-de="Johann Keil erweitert das Geschäft zur vollen Blüte" data-en="Johann Keil expands the business to full prosperity">Johann Keil erweitert das Geschäft zur vollen Blüte</p>
                         </div>
                         <div>
                             <p class="timeline-year">1897</p>
-                            <p class="timeline-text">Johann Christian Keil verkauft an Familie Hartmann</p>
+                            <p class="timeline-text" data-de="Johann Christian Keil verkauft an Familie Hartmann" data-en="Johann Christian Keil sells to the Hartmann family">Johann Christian Keil verkauft an Familie Hartmann</p>
                         </div>
                     </div>
-                    <p class="timeline-footer">Das Wappen wurde dem Geschlechte zu Regensburg anno 1560 verliehen - Drei silberne Keile bedeuten Namen, Macht und Reinheit.</p>
+                    <p class="timeline-footer" data-de="Das Wappen wurde dem Geschlechte zu Regensburg anno 1560 verliehen - Drei silberne Keile bedeuten Namen, Macht und Reinheit." data-en="The coat of arms was granted to the Keil family in Regensburg in 1560 – Three silver wedges symbolise name, power, and purity.">Das Wappen wurde dem Geschlechte zu Regensburg anno 1560 verliehen - Drei silberne Keile bedeuten Namen, Macht und Reinheit.</p>
                 </div>
 
                 <!-- Row 2: Main Points -->
                 <div class="hero-features">
                     <div class="feature-item">
-                        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                        <div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
                             <h3 style="margin: 0;">01.</h3>
-                            <h4 style="font-size: 1.1rem; font-weight: bold; margin: 0;">Langjährige Markterfahrung</h4>
+                            <h4 style="font-size: 1.1rem; font-weight: bold; margin: 0;" data-de="Langjährige Markterfahrung" data-en="Long-Standing Market Experience">Langjährige Markterfahrung</h4>
                         </div>
-                        <p>Mehrere Markt- und Krisenzyklen aktiv begleitet.</p>
+                        <p data-de="Mehrere Markt- und Krisenzyklen aktiv begleitet." data-en="Actively navigated multiple market and crisis cycles.">Mehrere Markt- und Krisenzyklen aktiv begleitet.</p>
                     </div>
                     <div class="feature-item">
-                        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                        <div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
                             <h3 style="margin: 0;">02.</h3>
-                            <h4 style="font-size: 1.1rem; font-weight: bold; margin: 0;">Antizyklische Denkweise</h4>
+                            <h4 style="font-size: 1.1rem; font-weight: bold; margin: 0;" data-de="Antizyklische Denkweise" data-en="Contrarian Mindset">Antizyklische Denkweise</h4>
                         </div>
-                        <p>Chancen erkennen, wenn Märkte unter Druck stehen.</p>
+                        <p data-de="Chancen erkennen, wenn Märkte unter Druck stehen." data-en="Identifying opportunities when markets are under pressure.">Chancen erkennen, wenn Märkte unter Druck stehen.</p>
                     </div>
                     <div class="feature-item">
-                        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                        <div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
                             <h3 style="margin: 0;">03.</h3>
-                            <h4 style="font-size: 1.1rem; font-weight: bold; margin: 0;">Verantwortung im Fokus</h4>
+                            <h4 style="font-size: 1.1rem; font-weight: bold; margin: 0;" data-de="Verantwortung im Fokus" data-en="Responsibility at the Core">Verantwortung im Fokus</h4>
                         </div>
-                        <p>Vermögen professionell führen und mehren.</p>
+                        <p data-de="Vermögen professionell führen und mehren." data-en="Managing and growing assets professionally.">Vermögen professionell führen und mehren.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="contact" class="section">
-            <h2>Kontakt</h2>
-            <p>Kontaktieren Sie uns, um zu besprechen, wie wir Sie unterstützen können.</p>
+            <h2 data-de="Kontakt" data-en="Contact">Kontakt</h2>
+            <p data-de="Kontaktieren Sie uns, um zu besprechen, wie wir Sie unterstützen können." data-en="Contact us to discuss how we can support you.">Kontaktieren Sie uns, um zu besprechen, wie wir Sie unterstützen können.</p>
             <div class="contact-info">
                 <div class="contact-item">
                     <h3>Email</h3>
                     <p>keil@keilconsult.de</p>
                 </div>
                 <div class="contact-item">
-                    <h3>Telefon</h3>
-                    <p>+49 89 / 444 51 979</p>
+                    <h3 data-de="Telefon" data-en="Phone">Telefon</h3>
+                    <p>0163/4451979</p>
                 </div>
                 <div class="contact-item">
-                    <h3>Adresse</h3>
+                    <h3 data-de="Adresse" data-en="Address">Adresse</h3>
                     <p>Lofererstraße 1a<br>81671 München</p>
                 </div>
             </div>
         </section>
 
         <section id="impressum" class="section">
-            <h2>Impressum</h2>
+            <h2 data-de="Impressum" data-en="Legal Notice">Impressum</h2>
             <div style="max-width: 800px; margin: 0 auto; text-align: left;">
                 <div style="margin-bottom: 2rem;">
                     <h3 style="font-size: 1.8rem; color: #ffffff; margin-bottom: 1rem;">Keil Asset Management Consult</h3>
@@ -309,8 +314,8 @@
                         81671 München
                     </p>
                     <p style="color: #e0e0e0; line-height: 1.8; margin-top: 1rem;">
-                        Mobil: +49 / 163 44 51 979<br>
-                        Tel: +49 89 / 444 51 979<br>
+                        Mobil: 0163/4451979<br>
+                        Tel: 0163/4451979<br>
                         Email: <a href="mailto:keil@keilconsult.de" style="color: #b8a8d8; text-decoration: none;">keil@keilconsult.de</a>
                     </p>
                     <p style="color: #e0e0e0; line-height: 1.8; margin-top: 1rem;">
@@ -319,7 +324,7 @@
                 </div>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Copyright und Haftung</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Copyright und Haftung" data-en="Copyright and Liability">Copyright und Haftung</h3>
                     <p style="color: #c0c0c0; line-height: 1.8; margin-bottom: 1rem;">
                         Alle Dokumente und der Inhalt auf diesen Internetseiten dienen ausschließlich zu Informationszwecken. Alle Daten und Informationen aus unseren Präsentationen oder anderen Dokumenten stammen aus Quellen, welche die Keil Asset Management Consult für zuverlässig hält. Darüber hinaus haben die Verfasser die größtmögliche Sorgfalt darauf verwandt, sicherzustellen, dass die verwendeten Fakten und dargestellten Meinungen angemessen und zutreffend sind. Trotz allem kann keine Gewähr oder Haftung für deren Richtigkeit übernommen werden - und zwar weder ausdrücklich noch stillschweigend. Darüber hinaus können alle Informationen unvollständig oder zusammengefasst sein. Weder Keil Asset Management Consult noch die einzelnen Verfasser übernehmen eine Haftung für Schäden, welche aufgrund der Nutzung dieser Dokumente oder seiner Inhalte oder auf andere Weise in diesem Zusammenhang entstehen.
                     </p>
@@ -341,7 +346,7 @@
                 </div>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Nutzung von Google Analytics</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Nutzung von Google Analytics" data-en="Use of Google Analytics">Nutzung von Google Analytics</h3>
                     <p style="color: #c0c0c0; line-height: 1.8; margin-bottom: 1rem;">
                         Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. ("Google"). Google Analytics verwendet sog. "Cookies", Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse, die jedoch mit der Methode _anonymizeIp() anonymisiert wird, so dass sie nicht mehr einem Anschluss zugeordnet werden kann) wird an einen Server von Google in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten von Google in Verbindung bringen. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können. Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.
                     </p>
@@ -353,14 +358,14 @@
         </section>
 
         <section id="datenschutz" class="section">
-            <h2>Datenschutzerklärung</h2>
+            <h2 data-de="Datenschutzerklärung" data-en="Privacy Policy">Datenschutzerklärung</h2>
             <div style="max-width: 800px; margin: 0 auto; text-align: left;">
                 <p style="color: #c0c0c0; line-height: 1.8; margin-bottom: 2rem;">
                     Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten") innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte auf. (nachfolgend gemeinsam bezeichnet als „Onlineangebot"). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung" oder „Verantwortlicher" verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).
                 </p>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Allgemeine Hinweise und Pflichtinformationen</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Allgemeine Hinweise und Pflichtinformationen" data-en="General Information and Mandatory Disclosures">Allgemeine Hinweise und Pflichtinformationen</h3>
                     <p style="color: #c0c0c0; line-height: 1.8; margin-bottom: 1rem;">
                         Wir freuen uns über Ihr Interesse an unserem Unternehmen und den Informationsangeboten auf den Webseiten. Die Nutzung unserer Internetseiten ist grundsätzlich ohne jede Angabe personenbezogener Daten möglich.
                     </p>
@@ -373,7 +378,7 @@
                 </div>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Verantwortlicher</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Verantwortlicher" data-en="Controller">Verantwortlicher</h3>
                     <p style="color: #e0e0e0; line-height: 1.8;">
                         Eckart Keil, Lofererstraße 1a, 81671 München / Deutschland<br>
                         Telefon: +49 89 444 51 979<br>
@@ -383,7 +388,7 @@
                 </div>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Arten der verarbeiteten Daten</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Arten der verarbeiteten Daten" data-en="Types of Processed Data">Arten der verarbeiteten Daten</h3>
                     <ul style="color: #c0c0c0; line-height: 1.8; margin-left: 1.5rem;">
                         <li>Bestandsdaten (z.B., Namen, Adressen)</li>
                         <li>Kontaktdaten (z.B., E-Mail, Telefonnummern)</li>
@@ -393,7 +398,7 @@
                 </div>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Zweck der Datenverarbeitung</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Zweck der Datenverarbeitung" data-en="Purpose of Data Processing">Zweck der Datenverarbeitung</h3>
                     <ul style="color: #c0c0c0; line-height: 1.8; margin-left: 1.5rem;">
                         <li>Zurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte</li>
                         <li>Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern</li>
@@ -403,14 +408,14 @@
                 </div>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Maßgebliche Rechtsgrundlagen</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Maßgebliche Rechtsgrundlagen" data-en="Applicable Legal Bases">Maßgebliche Rechtsgrundlagen</h3>
                     <p style="color: #c0c0c0; line-height: 1.8; margin-bottom: 1rem;">
                         Die Datenverarbeitung erfolgt auf Basis der gesetzlichen Bestimmungen des § 96 Abs 3 TKG sowie des Art 6 Abs 1 lit a (Einwilligung), Art 6 Abs 1 lit b (notwendig zur Vertragserfüllung), Art 6 Abs 1 lit c (gesetzliche Verpflichtungen nach der BAO und dem UGB), sowie Art 6 Abs 1 lit d (berechtigte Interessen des Verantwortlichen) der DSGVO.
                     </p>
                 </div>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Cookies</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Cookies" data-en="Cookies">Cookies</h3>
                     <p style="color: #c0c0c0; line-height: 1.8; margin-bottom: 1rem;">
                         Die Internetseite verwendet teilweise so genannte Cookies, damit das Angebot nutzerfreundlicher, effektiver und sicherer genutzt werden kann. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert.
                     </p>
@@ -420,7 +425,7 @@
                 </div>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Datenschutzerklärung Google Analytics</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Datenschutzerklärung Google Analytics" data-en="Google Analytics Privacy Policy">Datenschutzerklärung Google Analytics</h3>
                     <p style="color: #c0c0c0; line-height: 1.8; margin-bottom: 1rem;">
                         Wir verwenden Google Analytics von Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94.043 USA. Dies ist ein Tool, mit dem die Nutzung von Webseiten analysiert werden kann. Dazu werden von Google verschiedene Techniken angewandt, unter anderem auch Cookies auf ihrem Computer gespeichert.
                     </p>
@@ -430,7 +435,7 @@
                 </div>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Rechte der betroffenen Personen</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Rechte der betroffenen Personen" data-en="Rights of Data Subjects">Rechte der betroffenen Personen</h3>
                     <p style="color: #c0c0c0; line-height: 1.8; margin-bottom: 1rem;">
                         Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob betreffende Daten verarbeitet werden und auf Auskunft über diese Daten sowie auf weitere Informationen und Kopie der Daten entsprechend Art. 15 DSGVO.
                     </p>
@@ -446,14 +451,14 @@
                 </div>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Widerrufsrecht</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Widerrufsrecht" data-en="Right of Withdrawal">Widerrufsrecht</h3>
                     <p style="color: #c0c0c0; line-height: 1.8; margin-bottom: 1rem;">
                         Sie haben das Recht, erteilte Einwilligungen gem. Art. 7 Abs. 3 DSGVO mit Wirkung für die Zukunft zu widerrufen. Sie können der künftigen Verarbeitung der Sie betreffenden Daten nach Maßgabe des Art. 21 DSGVO jederzeit widersprechen.
                     </p>
                 </div>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Kontaktaufnahme</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Kontaktaufnahme" data-en="Contact">Kontaktaufnahme</h3>
                     <p style="color: #c0c0c0; line-height: 1.8; margin-bottom: 1rem;">
                         Bei der Kontaktaufnahme mit uns (z.B. per E-Mail, Telefon oder via sozialer Medien) werden die Angaben des Nutzers zur Bearbeitung der Kontaktanfrage und deren Abwicklung gem. Art. 6 Abs. 1 lit. b) DSGVO verarbeitet.
                     </p>
@@ -463,14 +468,14 @@
                 </div>
 
                 <div style="margin-bottom: 2rem;">
-                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;">Recht auf Beschwerde bei einer Aufsichtsbehörde</h3>
+                    <h3 style="font-size: 1.5rem; color: #ffffff; margin-bottom: 1rem;" data-de="Recht auf Beschwerde bei einer Aufsichtsbehörde" data-en="Right to Lodge a Complaint with a Supervisory Authority">Recht auf Beschwerde bei einer Aufsichtsbehörde</h3>
                     <p style="color: #c0c0c0; line-height: 1.8; margin-bottom: 1rem;">
                         Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde zu. Eine Liste der Datenschutzbeauftragten sowie deren Kontaktdaten können folgendem Link entnommen werden: <a href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html" target="_blank" style="color: #b8a8d8; text-decoration: none;">https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a>
                     </p>
                 </div>
 
                 <div style="margin-bottom: 2rem; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 10px;">
-                    <h3 style="font-size: 1.3rem; color: #ffffff; margin-bottom: 1rem;">Kontakt für Datenschutzfragen</h3>
+                    <h3 style="font-size: 1.3rem; color: #ffffff; margin-bottom: 1rem;" data-de="Kontakt für Datenschutzfragen" data-en="Contact for Data Protection Enquiries">Kontakt für Datenschutzfragen</h3>
                     <p style="color: #e0e0e0; line-height: 1.8;">
                         Bei allen Fragen zum Thema personenbezogene Daten können Sie sich jederzeit an uns wenden:<br><br>
                         Eckart Keil<br>
@@ -495,9 +500,9 @@
         <div class="footer-content">
             <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 3rem; align-items: start; margin-bottom: 3rem;">
                 <div style="text-align: left;">
-                    <p style="font-weight: bold; font-size: 1.2rem; color: #090420; line-height: 1.6; margin-bottom: 1rem;">
-                        Haben Sie Fragen?<br>
-                        Kontaktieren Sie mich gerne:
+                    <p style="font-weight: bold; font-size: 1.2rem; color: #090420; line-height: 1.6; margin-bottom: 1rem;" data-de="Haben Sie Fragen?&#10;Kontaktieren Sie mich gerne:" data-en="Do you have questions?&#10;Feel free to contact me:">
+                        <span data-de="Haben Sie Fragen?" data-en="Do you have questions?">Haben Sie Fragen?</span><br>
+                        <span data-de="Kontaktieren Sie mich gerne:" data-en="Feel free to contact me:">Kontaktieren Sie mich gerne:</span>
                     </p>
                     <a href="mailto:keil@keilconsult.de" class="footer-email-button">
                         keil@keilconsult.de
@@ -505,22 +510,22 @@
                 </div>
                 
                 <div style="text-align: center;">
-                    <a href="#contact" class="nav-button" data-page="contact" style="display: inline-block; padding: 1rem 2rem; background: #6449E9; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s ease;"> Strategiegespräch anfragen</a>
+                    <a href="#contact" class="nav-button" data-page="contact" style="display: inline-block; padding: 1rem 2rem; background: #6449E9; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s ease;" data-de="Strategiegespräch anfragen" data-en="Request a Strategy Meeting">Strategiegespräch anfragen</a>
                 </div>
                 
                 <div style="text-align: right;">
                     <p style="font-size: 1rem; color: #090420; line-height: 1.8;">
                         <strong style="font-size: 1.2rem;">Keil Asset Management Consult</strong><br>
-                        Portfoliomanagement<br>
-                        Prämiengeschäfte
+                        <span data-de="Portfoliomanagement" data-en="Portfolio Management">Portfoliomanagement</span><br>
+                        <span data-de="Prämiengeschäfte" data-en="Options &amp; Premiums">Prämiengeschäfte</span>
                     </p>
                 </div>
             </div>
             
             <div style="text-align: center; padding-top: 2rem; border-top: 1px solid rgba(9,4,32,0.2);">
                 <p style="color: #666; font-size: 0.95rem;">
-                    <a href="#impressum" class="footer-link">Impressum</a>. 
-                    <a href="#datenschutz" class="footer-link">Datenschutz</a>. 
+                    <a href="#impressum" class="footer-link" data-de="Impressum" data-en="Legal Notice">Impressum</a>. 
+                    <a href="#datenschutz" class="footer-link" data-de="Datenschutz" data-en="Privacy Policy">Datenschutz</a>. 
                     <span>© 2026 Keil AMC</span>
                 </p>
             </div>
@@ -528,37 +533,64 @@
     </footer>
 
     <script>
-        // Add scroll effect for header blur
-        window.addEventListener('scroll', function() {
-            const header = document.getElementById('header');
-            if (window.scrollY > 50) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-        });
+        // ── State ────────────────────────────────────────────────────────────
+        const VALID_SECTIONS = ['home', 'services', 'about', 'contact', 'impressum', 'datenschutz'];
+        const VALID_LANGS    = ['de', 'en'];
 
-        // Page switching functionality
-        const sections = document.querySelectorAll('.section');
+        let currentLang = 'de';
+
+        // ── Persist helpers ──────────────────────────────────────────────────
+        function saveState(sectionId, lang) {
+            try {
+                localStorage.setItem('kc_page', sectionId);
+                localStorage.setItem('kc_lang', lang);
+            } catch(e) {}
+        }
+
+        function loadState() {
+            let page = 'home', lang = 'de';
+            try {
+                const p = localStorage.getItem('kc_page');
+                const l = localStorage.getItem('kc_lang');
+                if (p && VALID_SECTIONS.includes(p)) page = p;
+                if (l && VALID_LANGS.includes(l))    lang = l;
+            } catch(e) {}
+            return { page, lang };
+        }
+
+        // ── Language ─────────────────────────────────────────────────────────
+        function setLang(lang, persist) {
+            currentLang = lang;
+            document.querySelectorAll('[data-de][data-en]').forEach(el => {
+                el.textContent = el.dataset[lang];
+            });
+            document.getElementById('btn-de').classList.toggle('active', lang === 'de');
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            document.documentElement.lang = lang;
+            if (persist !== false) saveState(currentSection(), lang);
+        }
+
+        function currentSection() {
+            const active = document.querySelector('.section.active');
+            return active ? active.id : 'home';
+        }
+
+        // ── Section display ──────────────────────────────────────────────────
+        const sections   = document.querySelectorAll('.section');
         const navButtons = document.querySelectorAll('.nav-button');
-        
-        function showSection(sectionId) {
+
+        function showSection(sectionId, persist) {
             sections.forEach(section => {
                 section.classList.remove('active');
-                if (section.id === sectionId) {
-                    section.classList.add('active');
-                }
+                if (section.id === sectionId) section.classList.add('active');
             });
-            
-            // Update active nav button
+
             navButtons.forEach(btn => {
                 btn.classList.remove('active');
-                if (btn.dataset.page === sectionId) {
-                    btn.classList.add('active');
-                }
+                if (btn.dataset.page === sectionId) btn.classList.add('active');
             });
-            
-            // Show/hide square image on about page
+
+            // Show/hide decorative square image on about page
             const squareImage = document.querySelector('.square-image');
             if (squareImage) {
                 if (sectionId === 'about') {
@@ -569,37 +601,47 @@
                     setTimeout(() => squareImage.style.display = 'none', 500);
                 }
             }
+
+            if (persist !== false) saveState(sectionId, currentLang);
         }
-        
-        // Hamburger toggle
+
+        // ── Header scroll blur ───────────────────────────────────────────────
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // ── Hamburger ────────────────────────────────────────────────────────
         const hamburger = document.querySelector('.hamburger');
-        const navMenu = document.querySelector('.nav-menu');
+        const navMenu   = document.querySelector('.nav-menu');
         hamburger.addEventListener('click', function() {
             hamburger.classList.toggle('active');
             navMenu.classList.toggle('active');
         });
 
-        // Add click handlers to navigation buttons
+        // ── Nav buttons ──────────────────────────────────────────────────────
         navButtons.forEach(button => {
             button.addEventListener('click', function(e) {
                 e.preventDefault();
-                const pageId = this.dataset.page;
-                showSection(pageId);
-                // Close mobile menu on nav click
+                showSection(this.dataset.page);
                 hamburger.classList.remove('active');
                 navMenu.classList.remove('active');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             });
         });
-        
-        // Logo click handler
+
+        // ── Logo ─────────────────────────────────────────────────────────────
         document.querySelector('.logo').addEventListener('click', function(e) {
             e.preventDefault();
             showSection('home');
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
-        
-        // Footer link handlers
+
+        // ── Footer links ─────────────────────────────────────────────────────
         document.querySelectorAll('.footer-link').forEach(link => {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -608,20 +650,26 @@
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             });
         });
-        
-        // Initialize - show home page and scroll to top
-        window.scrollTo(0, 0);
-        showSection('home');
-        
-        // Ensure page is at top on load/reload
-        window.addEventListener('beforeunload', function() {
-            window.scrollTo(0, 0);
+
+        // ── "Request Strategy Meeting" footer button ─────────────────────────
+        document.querySelectorAll('[data-page="contact"]').forEach(el => {
+            if (!el.classList.contains('nav-button')) {
+                el.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    showSection('contact');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            }
         });
-        
-        // Force scroll to top on page load
-        if (history.scrollRestoration) {
-            history.scrollRestoration = 'manual';
-        }
+
+        // ── Restore state on load ────────────────────────────────────────────
+        if (history.scrollRestoration) history.scrollRestoration = 'manual';
+
+        const restored = loadState();
+        // Apply language first (no persist write yet), then section
+        setLang(restored.lang, false);
+        showSection(restored.page, false);
+        window.scrollTo(0, 0);
     </script>
 </body>
 </html>

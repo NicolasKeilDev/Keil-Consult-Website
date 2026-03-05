@@ -117,6 +117,7 @@ header.scrolled {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
     position: relative;
     z-index: 2;
 }
@@ -149,17 +150,19 @@ header.scrolled {
 /* Navigation Styles */
 .nav-menu {
     display: flex;
-    gap: clamp(1rem, 3vw, 3.5rem);
+    gap: clamp(0.25rem, 1.5vw, 3.5rem);
     align-items: center;
     flex-wrap: nowrap;
+    flex-shrink: 1;
+    min-width: 0;
 }
 
 .nav-button {
     color: #EADADA;
     text-decoration: none;
-    font-size: clamp(0.95rem, 1.4vw, 1.25rem);
+    font-size: clamp(0.8rem, 1.2vw, 1.25rem);
     font-weight: 500;
-    padding: 0.6rem clamp(0.75rem, 1.5vw, 2rem);
+    padding: 0.6rem clamp(0.4rem, 1vw, 2rem);
     border-radius: 8px;
     transition: all 0.3s ease;
     position: relative;
@@ -520,6 +523,48 @@ body:has(#contact.section.active) .footer-content > div:first-child > div:nth-ch
     text-decoration: underline;
 }
 
+/* Language Toggle Button */
+.lang-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    color: rgba(234, 218, 218, 0.65);
+    font-family: 'Lato', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.35rem 0.7rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    letter-spacing: 0.05em;
+}
+
+.lang-btn:hover {
+    color: #EADADA;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.lang-btn.active {
+    background: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+}
+
+.lang-divider {
+    width: 1px;
+    height: 16px;
+    background: rgba(234, 218, 218, 0.3);
+}
+
 /* Hamburger Menu */
 .hamburger {
     display: none;
@@ -706,10 +751,27 @@ body:has(#contact.section.active) .footer-content > div:first-child > div:nth-ch
     .header-content {
         padding: 0.75rem 1rem;
         justify-content: space-between;
+        gap: 0.5rem;
+        overflow: visible;
     }
 
     .hamburger {
         display: flex;
+        order: 3;
+    }
+
+    .lang-toggle {
+        order: 2;
+        margin-left: auto;
+    }
+
+    .nav-menu {
+        order: 4;
+    }
+
+    .lang-btn {
+        font-size: 0.78rem;
+        padding: 0.3rem 0.55rem;
     }
 
     .nav-menu {
